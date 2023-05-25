@@ -18,7 +18,6 @@ body{
 .navbar i{
     font-size: 1.4rem;
     color:rgba(0,0,0,0.7)
-
 }
 .streamx{ 
     background-image: url('https://edge.rode.com/images/page/1/modules/8063/StreamerX-Header-right.jpg');
@@ -273,4 +272,78 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 0%;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.logo{
+    font-size: 2rem !important;
+}
+.navbar i{
+    font-size: 1.4rem;
+    color:rgba(0,0,0,0.7)
+}
+.footer .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(5rem,0.25fr));
+    border-top: .1rem solid lightgray;
+}
+.footer .box-container .box{
+    margin-top: 40px;
+    margin-left:1.2px;
+    margin-bottom: 3px;
+}
+.footer .box-container .box h3{
+    text-align:left;
+    color:black;
+    font-size:1.5rem;
+    font-family: system-ui;
+    margin-top:.5rem;
+    margin-bottom:0.5rem;
+}
+.footer .box-container .box a{
+    text-align:left;
+    color:gray;
+    font-size:1.3rem;
+    display: block;
+    font-family: syatem-ui;
+    padding-right:.4rem;
+    text-decoration: none;
+}
+.footer .box-container .box img{
+    margin-top: 1.6rem;
+    margin-bottom: 3rem;
+}
+.footer .box span{
+    color:white;
+    background-color: #ad9970;
+    padding:2%;
+    font-size:15px;
+    margin-left:3% ;
+    border-radius:25px;
+    font-size:1.3rem;
+}
+.footer .credits{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    text-align:center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color:black;
+    border-top:.1rem solid lightgray;
+    margin-bottom: 3rem;
+}
+.footer .credits i{
+    margin-top: 1.5rem;
+    margin-bottom: 10%;
+    font-size: 2rem;
+    justify-content: space-evenly;
 }
